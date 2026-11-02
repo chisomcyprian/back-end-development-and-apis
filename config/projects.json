@@ -30,13 +30,14 @@
     "dashedName": "build-a-case-converter",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 44,
     "runTestsOnWatch": true,
     "seedEveryLesson": false,
     "isResetEnabled": false,
     "blockingTests": null,
     "breakOnFailure": null,
-    "numberOfLessons": 45
+    "numberOfLessons": 45,
+    "completedDate": 1793223687560
   },
   {
     "id": 3,
@@ -49,33 +50,36 @@
     "isResetEnabled": false,
     "blockingTests": true,
     "breakOnFailure": true,
-    "numberOfLessons": 1
+    "numberOfLessons": 1,
+    "completedDate": 1793226703024
   },
   {
     "id": 4,
     "dashedName": "build-a-web-server",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 59,
     "runTestsOnWatch": true,
     "seedEveryLesson": true,
     "isResetEnabled": false,
     "blockingTests": false,
     "breakOnFailure": false,
-    "numberOfLessons": 60
+    "numberOfLessons": 60,
+    "completedDate": 1793284211143
   },
   {
     "id": 5,
     "dashedName": "build-a-random-joke-app",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 7,
     "runTestsOnWatch": true,
     "seedEveryLesson": false,
     "isResetEnabled": false,
     "blockingTests": null,
     "breakOnFailure": null,
-    "numberOfLessons": 8
+    "numberOfLessons": 8,
+    "completedDate": 1793293413465
   },
   {
     "id": 6,
@@ -88,20 +92,22 @@
     "isResetEnabled": true,
     "numberOfLessons": 1,
     "blockingTests": false,
-    "breakOnFailure": false
+    "breakOnFailure": false,
+    "completedDate": 1793362129854
   },
   {
     "id": 7,
     "dashedName": "build-a-submission-form",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 21,
     "runTestsOnWatch": true,
     "seedEveryLesson": false,
     "isResetEnabled": false,
     "blockingTests": null,
     "breakOnFailure": null,
-    "numberOfLessons": 22
+    "numberOfLessons": 22,
+    "completedDate": 1793374873700
   },
   {
     "id": 8,
@@ -114,7 +120,8 @@
     "isResetEnabled": false,
     "blockingTests": true,
     "breakOnFailure": true,
-    "numberOfLessons": 1
+    "numberOfLessons": 1,
+    "completedDate": 1793384642554
   },
   {
     "id": 9,
@@ -140,7 +147,8 @@
     "isResetEnabled": false,
     "blockingTests": true,
     "breakOnFailure": true,
-    "numberOfLessons": 1
+    "numberOfLessons": 1,
+    "completedDate": 1793466302173
   },
   {
     "id": 11,

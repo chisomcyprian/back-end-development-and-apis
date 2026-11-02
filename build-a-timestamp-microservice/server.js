@@ -11,9 +11,20 @@ app.get("/", (_req, res) => {
   res.sendFile(import.meta.dirname + "/views/index.html");
 });
 
-// Do not change code above this line
+const respond = (res, date) => {
+  if (isNaN(date.getTime())) return res.json({ error: "Invalid Date" });
+  res.json({ unix: date.getTime(), utc: date.toUTCString() });
+};
 
-// Do not change code below this line
+app.get("/api", (_req, res) => respond(res, new Date()));
+
+app.get("/api/:date", (req, res) => {
+  const { date } = req.params;
+  const parsed = /^-?\d+$/.test(date) ? new Date(Number(date)) : new Date(date);
+  respond(res, parsed);
+});
+
+
 
 const PORT = 8000;
 const listener = app.listen(PORT, function () {
