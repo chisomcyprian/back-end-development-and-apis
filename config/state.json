@@ -1,9 +1,9 @@
 {
-  "currentProject": null,
+  "currentProject": "build-a-family-movie-watchlist-api",
   "locale": "english",
   "lastSeed": {
-    "projectDashedName": null,
-    "lessonNumber": -1
+    "projectDashedName": "build-a-resource-monitor",
+    "lessonNumber": 15
   },
   "lastWatchChange": 0
 }
